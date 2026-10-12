@@ -21,6 +21,19 @@ Completed nine controlled wireless-security labs spanning discovery, WPA/WPA2 ha
 - Bettercap
 - Wifite2
 
+## Authorization and Scope
+All testing in this series was authorized and performed in the author's own lab environment.
+
+## Redaction Status
+TODO (author): the screenshots below may show identifying or sensitive values. Blur or replace them before wider sharing:
+
+| Ref | What to redact |
+|---|---|
+| 1, 2, 3, 10 | Lab SSID "NETHUB LR", BSSID and client MAC addresses |
+| 4, 6, 9, 12, 13, 14, 15 | Third-party SSIDs, BSSIDs, MAC addresses and vendor details of nearby networks |
+| 5, 11, 16 | Recovered WPA/WPA2 pre-shared key |
+| 7 | Submitted test credential in captive-portal requests |
+
 ## Steps
 
 *Ref 1: Airodump-ng captured WPA handshake evidence for the target NETHUB LR access point, including BSSID, channel, encryption, connected clients, and EAPOL frame activity.*
